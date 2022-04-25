@@ -1,0 +1,395 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Feb 22 11:58:08 2022
+# Process ID: 16416
+# Current directory: D:/Bureau/Info/Script info/Master/PFE/Izhikevich
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17508 D:\Bureau\Info\Script info\Master\PFE\Izhikevich\Izhikevich.xpr
+# Log file: D:/Bureau/Info/Script info/Master/PFE/Izhikevich/vivado.log
+# Journal file: D:/Bureau/Info/Script info/Master/PFE/Izhikevich\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Bureau/Info/Script info/Master/PFE/Izhikevich/Izhikevich.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {D:/Bureau/Info/Script info/Master/PFE/Izhikevich/model_behav.wcfg}
+source sim_model.tcl
+restart
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1
+close_design
+close_sim
+launch_simulation
+open_wave_config {D:/Bureau/Info/Script info/Master/PFE/Izhikevich/model_behav.wcfg}
+source sim_model.tcl
+restart
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1
+close_design
+close_sim
+launch_simulation
+open_wave_config {D:/Bureau/Info/Script info/Master/PFE/Izhikevich/model_behav.wcfg}
+source sim_model.tcl
+restart
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 1250ps} -repeat_every 2500ps
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1
+close_design
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config {D:/Bureau/Info/Script info/Master/PFE/Izhikevich/model_behav.wcfg}
+source sim_model.tcl
+restart
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+save_wave_config {D:/Bureau/Info/Script info/Master/PFE/Izhikevich/model_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1
+close_design
+launch_simulation
+open_wave_config {D:/Bureau/Info/Script info/Master/PFE/Izhikevich/model_behav.wcfg}
+source sim_model.tcl
+restart
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_sim
+open_run impl_1
+report_utilization -name utilization_1
+close_design
+launch_simulation
+open_wave_config {D:/Bureau/Info/Script info/Master/PFE/Izhikevich/model_behav.wcfg}
+source sim_model.tcl
+restart
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/sim_model/clk} -radix dec {0 0ns} {1 1250ps} -repeat_every 2500ps
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1
+close_sim
